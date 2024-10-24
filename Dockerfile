@@ -2,7 +2,7 @@
 FROM amazoncorretto:17-alpine-jdk
 
 # Establecer variables de entorno para la base de datos
-ENV SPRING_DATASOURCE_URLjdbc:mysql://localhost:3306/docker_db
+ENV SPRING_DATASOURCE_URL jdbc:mysql://localhost:3306/docker_db
 ENV SPRING_DATASOURCE_USERNAME=root
 ENV SPRING_DATASOURCE_PASSWORD=
 
